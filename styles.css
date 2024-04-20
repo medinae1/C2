@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+ul li label {
+    font-size: 18px;
+}
+
+ul li input:checked {
+    accent-color: #f806e4;
+}
+
+ul li:has(input:checked) {
+    border: 2px solid #f806e4;
+    background-color: #f9f9f9;
+}
